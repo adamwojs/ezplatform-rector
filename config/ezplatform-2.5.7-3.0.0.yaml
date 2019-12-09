@@ -1,0 +1,10 @@
+services:
+    Rector\Renaming\Rector\Class_\RenameClassRector:
+        $oldToNewClasses:
+            # EZP-30837: Migrate from repository-forms to ezplatform-content-forms package
+            EzSystems\RepositoryForms\FieldType\FieldDefinitionFormMapperInterface: EzSystems\EzPlatformAdminUi\FieldType\FieldDefinitionFormMapperInterface
+            EzSystems\RepositoryForms\FieldType\FieldValueFormMapperInterface: EzSystems\EzPlatformContentForms\FieldType\FieldValueFormMapperInterface
+            EzSystems\RepositoryForms\Data\FieldDefinitionData: EzSystems\EzPlatformAdminUi\Form\Data\FieldDefinitionData
+            EzSystems\RepositoryForms\Data\Content\FieldData: EzSystems\EzPlatformContentForms\Data\Content\FieldData
+            EzSystems\RepositoryForms\Limitation\LimitationFormMapperInterface: EzSystems\EzPlatformAdminUi\Limitation\LimitationFormMapperInterface
+            EzSystems\RepositoryForms\Limitation\LimitationValueMapperInterface: EzSystems\EzPlatformAdminUi\Limitation\LimitationValueMapperInterface

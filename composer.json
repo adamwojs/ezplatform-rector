@@ -1,10 +1,11 @@
 {
   "name": "adamwojs/ezplatform-rector",
+  "description": "",
   "license": "GPL-2.0-only",
   "keywords": [
     "ezplatform"
   ],
-  "type": "ezplatform-bundle",
+  "type": "library",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
